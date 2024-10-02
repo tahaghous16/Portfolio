@@ -3,32 +3,32 @@ import SkillCard from "./SkillCard";
 
 const skillItem = [
   {
-    imgSrc: "public/html-1.svg",
+    imgSrc: "./html-1.svg",
     label: "HTML",
     desc: "Basic Structure",
   },
   {
-    imgSrc: "public/css-3.svg",
+    imgSrc: "./css-3.svg",
     label: "CSS",
     desc: "User Interface",
   },
   {
-    imgSrc: "public/javascript-1.svg",
+    imgSrc: "./javascript-1.svg",
     label: "JavaScript",
     desc: "Interaction",
   },
   {
-    imgSrc: "public/react.svg",
+    imgSrc: "./react.svg",
     label: "ReactJS",
     desc: "Framework",
   },
   {
-    imgSrc: "public/bootstrap-5-1.svg",
+    imgSrc: "./bootstrap-5-1.svg",
     label: "Bootstrap",
     desc: "Framework",
   },
   {
-    imgSrc: "public/tailwindcss.svg",
+    imgSrc: "./tailwindcss.svg",
     label: "TailwindCSS",
     desc: "User Interface",
   },
