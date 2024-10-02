@@ -33,7 +33,7 @@ let Hero = () => {
             <ButtonPrimary
               label="Resume"
               icon="download"
-              href="src/assets/Resume.pdf"
+              href="./Resume.pdf"
               download={true}
             />
 
