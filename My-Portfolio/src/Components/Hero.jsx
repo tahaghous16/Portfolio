@@ -7,7 +7,7 @@ let Hero = () => {
           <div className="flex items-center gap-3">
             <figure className="img-box w-9 h-9 rounded-lg">
               <img
-                src="public/Taha pic.jpg"
+                src="./Taha pic.jpg"
                 alt="Hero Section"
                 height={40}
                 width={40}
@@ -47,7 +47,7 @@ let Hero = () => {
         <div className="hidden lg:block">
           <figure className="w-full max-w-[480px] ml-auto bg bg-gradient-to-t from-rose-200 via-25% via-rose-200/40 to-65% rounded-[50px] overflow-hidden">
             <img
-              src="public/HeroSectionPic.png"
+              src="./HeroSectionPic.png"
               alt="Hero Section Pic"
               width={656}
               height={800}
