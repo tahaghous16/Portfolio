@@ -3,19 +3,19 @@ import EducationCard from "./EducarionCard";
 const educations = [
   {
     institute: "Matriculation in Computer Science",
-    imgSrc: "public/School.jpeg",
+    imgSrc: "./School.jpeg",
     education: "Muhammad Ali Jauhaur Academy",
     year: "2017-2019",
   },
   {
     institute: "Intermediate in Pre-Engineering",
-    imgSrc: "public/College.jpeg",
+    imgSrc: "./College.jpeg",
     education: "Government Degree College Stadium Road , SRE MAJEED",
     year: "2019-2021",
   },
   {
     institute: "Bachlor's in Computer science (BSCS)",
-    imgSrc: "public/University.png",
+    imgSrc: "./University.png",
     education: "Iqra Univerity",
     year: "2023-2027",
   },
