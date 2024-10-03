@@ -133,7 +133,7 @@ body {
   display: flex;
   gap: 20px;
   width: max-content;
-  animation: scroll-left 15s linear infinite;
+  animation: scroll-left 20s linear infinite;
 }
 
 @keyframes scroll-left {

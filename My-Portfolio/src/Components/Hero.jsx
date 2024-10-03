@@ -7,7 +7,7 @@ let Hero = () => {
           <div className="flex items-center gap-3">
             <figure className="img-box w-9 h-9 rounded-lg">
               <img
-                src="public/Taha pic.jpg"
+                src="./Taha pic.jpg"
                 alt="Hero Section"
                 height={40}
                 width={40}
@@ -33,7 +33,7 @@ let Hero = () => {
             <ButtonPrimary
               label="Resume"
               icon="download"
-              href="src/assets/Resume.pdf"
+              href="./Resume.pdf"
               download={true}
             />
 
