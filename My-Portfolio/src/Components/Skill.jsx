@@ -23,6 +23,11 @@ const skillItem = [
     desc: "Framework",
   },
   {
+    imgSrc: "./c++.svg",
+    label: "C++",
+    desc: "Programming Language",
+  },
+  {
     imgSrc: "./bootstrap-5-1.svg",
     label: "Bootstrap",
     desc: "Framework",

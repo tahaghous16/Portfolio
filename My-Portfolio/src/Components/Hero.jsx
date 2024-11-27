@@ -47,9 +47,9 @@ let Hero = () => {
         <div className="hidden lg:block">
           <figure className="w-full max-w-[480px] ml-auto bg bg-gradient-to-t from-rose-200 via-25% via-rose-200/40 to-65% rounded-[50px] overflow-hidden">
             <img
-              src="./HeroSectionPic.png"
+              src="./Pic TG.jpg"
               alt="Hero Section Pic"
-              width={656}
+              width={500}
               height={800}
               className="w-full"
             />
