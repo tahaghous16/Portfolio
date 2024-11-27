@@ -49,13 +49,10 @@ let Skill = () => {
           high-performing websites & applications.
         </p>
 
-        {/* Marquee wrapper */}
-        <div className="marquee overflow-hidden w-full">
-          <div className="marquee-content flex items-center space-x-0 animate-scroll">
-            {skillItem.concat(skillItem).map(({ imgSrc, label, desc }, key) => (
-              <SkillCard imgSrc={imgSrc} label={label} key={key} desc={desc} />
-            ))}
-          </div>
+        <div className="card-container flex flex-wrap justify-center gap-4">
+          {skillItem.map(({ imgSrc, label, desc }, key) => (
+            <SkillCard imgSrc={imgSrc} label={label} key={key} desc={desc} />
+          ))}
         </div>
       </div>
     </section>

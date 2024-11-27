@@ -128,34 +128,10 @@ body {
   width: 100%;
 }
 
-/* Inner container for skill cards */
-.marquee-content {
-  display: flex;
-  gap: 20px;
-  width: max-content;
-  animation: scroll-left 20s linear infinite;
+.card-container {
+  @apply flex flex-wrap justify-center gap-4;
 }
 
-@keyframes scroll-left {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-50%);
-  }
-}
-
-/* Marquee wrapper to handle overflow */
-.marquee {
-  @apply overflow-hidden w-full;
-}
-
-/* Marquee content with no gap and continuous scroll */
-.marquee-content {
-  @apply flex items-center space-x-0;
-}
-
-/* Flex item properties to make sure each card is inline */
-.marquee-content > * {
-  @apply flex-none;
+.card-container > * {
+  @apply flex-none w-full sm:w-1/2 lg:w-1/3 xl:w-1/4; /* Adjusts width per row based on screen size */
 }
