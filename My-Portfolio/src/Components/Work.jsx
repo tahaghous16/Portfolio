@@ -3,7 +3,7 @@ import ProjectCard from "./ProjectCard";
 const works = [
   {
     imgSrc: "./buyzaar.png",
-    title: "Buyzaar (React Ecommerece Website)",
+    title: "Buyzaar (React Website)",
     projectLink: "https://buyzaar-react-redux.vercel.app/",
   },
   {
