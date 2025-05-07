@@ -2,30 +2,27 @@ import ProjectCard from "./ProjectCard";
 
 const works = [
   {
-    imgSrc: "./Currency converter.jpg",
-    title: "Currency Converter App",
-    projectLink:
-      "https://66cb7a8e2f99f106bf90fdbb--frabjous-starlight-bd8b19.netlify.app/",
+    imgSrc: "./buyzaar.png",
+    title: "Buyzaar (React Ecommerece Website)",
+    projectLink: "https://buyzaar-react-redux.vercel.app/",
   },
   {
-    imgSrc: "./CarrioMotor.png",
-    title: "Carrio Motor App",
+    imgSrc: "./shopnest.png",
+    title: "ShopNest (React Website)",
 
-    projectLink:
-      "https://66cb8736882f3d6714c737de--courageous-profiterole-0d5169.netlify.app/",
+    projectLink: "https://react-ecommerce-website-puce.vercel.app/",
   },
   {
-    imgSrc: "./Innovative Solution.png",
+    imgSrc: "./innovative solution.png",
     title: "Innovative Solution App",
     projectLink:
       "https://66cb50edbd7394361ce20be7--unique-gnome-ca28eb.netlify.app/",
   },
   {
-    imgSrc: "./Tic-Tac-Toe.jpg",
-    title: "Tic-Tac-Toe Game App",
+    imgSrc: "./mernauth.png",
+    title: "MERN-AUTH",
 
-    projectLink:
-      "https://66cb4589bab9882607397ecd--zingy-palmier-e88407.netlify.app/",
+    projectLink: "https://github.com/tahaghous16/MERN-AUTH",
   },
 ];
 
@@ -34,7 +31,7 @@ let Work = () => {
     <section className="section" id="work">
       <div className="container">
         <h2 className="headline-2 mb-8">My Project Highlights</h2>
-        <div className="grid gap-x-4 gap-y-5 grid-cols-[repeat(auto-fill,_minmax(210px,_1fr))]">
+        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-4">
           {works.map(({ imgSrc, title, projectLink }, key) => (
             <ProjectCard
               key={key}
