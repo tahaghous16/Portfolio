@@ -13,7 +13,7 @@ const works = [
     projectLink: "https://react-ecommerce-website-puce.vercel.app/",
   },
   {
-    imgSrc: "./innovative solution.png",
+    imgSrc: "./solution.png",
     title: "Innovative Solution App",
     projectLink:
       "https://66cb50edbd7394361ce20be7--unique-gnome-ca28eb.netlify.app/",
