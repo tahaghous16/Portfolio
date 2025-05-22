@@ -8,7 +8,7 @@ let Header = () => {
         <h1>
           <a href="/" className="logo ">
             <img
-              src="./tahaghous1.png"
+              src="./tahaghous3.png"
               width={160}
               height={160}
               alt="Taha Ghous"
